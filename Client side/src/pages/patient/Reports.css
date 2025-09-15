@@ -1,0 +1,27 @@
+.reports-page {
+  padding: 20px;
+}
+
+.reports-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.report-card {
+  width: 300px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.report-card:hover {
+  transform: translateY(-5px);
+}
+
+.report-card p {
+  margin: 6px 0;
+}

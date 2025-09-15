@@ -13,7 +13,7 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.use("/patient", patientRouter);
+app.use("/login/patient", patientRouter);
 app.use("/doctor", doctorRouter);
 app.use("/pharmacy", pharmacyModel);
 
